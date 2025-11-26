@@ -5,11 +5,10 @@ Bot para servidor do discord do Bastards
 """
 
 import discord
+import os
 
-class bot:
-    def __init__(self, nome, value):
-        self.nome = nome
-        self.value = value
-        
-        
-        
+
+
+
+
+

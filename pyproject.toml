@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "noel-noa-bot"
+version = "1.0.0"
+description = "Bot de gerenciamento para comunidade Blue Lock - Bastard München"
+authors = [
+    {name = "Kayo Rodrigues", email = "kayorodrigues1235@gmail.com"},
+]
+dependencies = [
+    "discord.py>=2.3.0",
+    "python-dotenv>=1.0.0",
+    "aiosqlite>=0.19.0"
+]
