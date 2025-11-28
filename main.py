@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# INTENTS CORRETOS
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
