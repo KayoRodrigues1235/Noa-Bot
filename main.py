@@ -110,7 +110,7 @@ setup_events(
     log_channel_id=1447582067222118491       # ID do canal de logs
 )
 
-
+# Teste commit
 # ===== COMANDOS BÁSICOS =====
 # Estes comandos ficam aqui temporariamente, depois vão para cogs
 
