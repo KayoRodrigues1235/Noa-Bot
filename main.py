@@ -5,6 +5,9 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
+
+from events import setup_events
+
 # Configuração de logging
 logging.basicConfig(
     level=logging.INFO,
@@ -100,6 +103,13 @@ class NoelNoaBot(commands.Bot):
 
 # Cria instância do bot
 bot = NoelNoaBot()
+
+setup_events(
+    bot,
+    welcome_channel_id=1447582043000144003,  # ID do canal de boas-vindas
+    log_channel_id=1447582067222118491       # ID do canal de logs
+)
+
 
 # ===== COMANDOS BÁSICOS =====
 # Estes comandos ficam aqui temporariamente, depois vão para cogs
